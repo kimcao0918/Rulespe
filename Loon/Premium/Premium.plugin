@@ -134,10 +134,6 @@ http-response ^https:\/\/.*\.(intsig\.net|camscanner\.com) script-path=https://r
 http-response ^https:\/\/api2\.vilipix\.com\/api\/v\d\/user\/current script-path=https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/JS/ChaHuaShiJie/JS/CHSJ.js, requires-body=true, timeout=60, tag=插画世界解锁Vip
 
 
-# > ChatGPT 解锁 Plus 订阅
-#http-response ^https?:\/\/ios\.chat\.openai\.com\/backend-api\/(accounts\/check\/|models) script-path=https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/JS/ChatGPT/JS/ChatGPTPlusCrack.js, requires-body=true, timeout=60, tag=ChatGPT解锁 Plus 订阅
-
-
 # > Craft解锁Premium
 http-response ^https?:\/\/(api|docs)\.craft\.do\/(api\/)?(auth\/v\d\/profile|subscription\/(receipt|teams\/get-subscriptions)) script-path=https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/JS/Craft/JS/Craft.js, requires-body=true, timeout=60, tag=Craft解锁Premium
 
